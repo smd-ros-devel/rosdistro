@@ -594,6 +594,7 @@ gawk:
   ubuntu: [gawk]
 gazebo:
   arch: [gazebo]
+  fedora: [gazebo-devel]
   ubuntu:
     precise: [gazebo]
     quantal: [gazebo]
@@ -1401,7 +1402,7 @@ libopenni-sensor-primesense-dev:
   ubuntu: [libopenni-sensor-primesense-dev]
 libopenni2-dev:
   arch: [openni2]
-  fedora: [openni-devel]
+  fedora: [openni2-devel]
   ubuntu: [libopenni2-dev]
 libopenscenegraph:
   arch: [openscenegraph]
