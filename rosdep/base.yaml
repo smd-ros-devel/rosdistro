@@ -1630,6 +1630,13 @@ libqwt5-qt4-dev:
   ubuntu:
     apt:
       packages: [libqwt5-qt4-dev]
+libqwt6:
+  ubuntu:
+    precise: [libqwt-dev]
+    quantal: [libqwt-dev]
+    raring: [libqwt-dev]
+    saucy: [libqwt-dev]
+    trusty: [libqwt-dev]
 libqwtplot3d-qt4-dev:
   arch: [qwtplot3d]
   debian:
@@ -1813,6 +1820,20 @@ libunittest++:
   ubuntu:
     apt:
       packages: [libunittest++-dev]
+libunwind:
+  ubuntu:
+    precise: [libunwind7]
+    quantal: [libunwind8]
+    raring: [libunwind8]
+    saucy: [libunwind8]
+    trusty: [libunwind8]
+libunwind-dev:
+  ubuntu:
+    precise: [libunwind7-dev]
+    quantal: [libunwind8-dev]
+    raring: [libunwind8-dev]
+    saucy: [libunwind8-dev]
+    trusty: [libunwind8-dev]
 libusb:
   arch: [libusb-compat]
   debian: [libusb-0.1-4]
@@ -2001,6 +2022,11 @@ lua-dev:
   fedora: [lua-devel]
   macports: [lua51]
   ubuntu: [liblua5.1-0-dev]
+lz4:
+  debian: [liblz4-dev]
+  ubuntu:
+    saucy: [liblz4-dev]
+    trusty: [liblz4-dev]
 m4:
   arch: [m4]
   debian: [m4]
@@ -2191,6 +2217,8 @@ procps:
   debian: [procps]
   fedora: [procps-ng]
   ubuntu: [procps]
+proj:
+  ubuntu: [libproj-dev]
 protobuf:
   arch: [protobuf]
   debian: [libprotobuf7]

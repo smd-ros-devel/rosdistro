@@ -311,6 +311,10 @@ lua-dev:
   osx:
     homebrew:
       packages: [lua]
+lz4:
+  osx:
+    homebrew:
+      packages: [lz4]
 mercurial:
   osx:
     pip:
@@ -371,6 +375,10 @@ python-argparse:
   osx:
     pip:
       packages: [argparse]
+python-coverage:
+  osx:
+    pip:
+      packages: [coverage]
 python-empy:
   osx:
     pip:
@@ -392,6 +400,10 @@ python-matplotlib:
     pip:
       depends: [pkg-config, freetype, libpng12-dev]
       packages: [matplotlib]
+python-mock:
+  osx:
+    pip:
+      packages: [mock]
 python-netifaces:
   osx:
     pip:
