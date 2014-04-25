@@ -2283,6 +2283,7 @@ redis-server:
   fedora: [redis]
   ubuntu: [redis-server]
 rosemacs-el:
+  fedora: [emacs]
   ubuntu: [rosemacs-el]
 ruby:
   arch: [ruby]
