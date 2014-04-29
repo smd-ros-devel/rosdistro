@@ -222,7 +222,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/common_msgs-release.git
-      version: 1.11.1-0
+      version: 1.11.2-0
     source:
       type: git
       url: https://github.com/ros/common_msgs.git
@@ -337,7 +337,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/diagnostics-release.git
-      version: 1.8.2-0
+      version: 1.8.3-0
     source:
       type: git
       url: https://github.com/ros/diagnostics.git
@@ -556,7 +556,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ecto_ros-release.git
-      version: 0.4.1-0
+      version: 0.4.2-0
     source:
       type: git
       url: https://github.com/plasmodic/ecto_ros.git
@@ -821,7 +821,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/image_pipeline-release.git
-      version: 1.12.3-0
+      version: 1.12.4-0
     source:
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
@@ -891,11 +891,13 @@ repositories:
       packages:
       - euslisp
       - geneus
+      - jsk_roseus
       - roseus
+      - roseus_msgs
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.1.3-0
+      version: 1.1.7-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -1892,6 +1894,11 @@ repositories:
       type: git
       url: https://github.com/ros-infrastructure/rosdoc_lite.git
       version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/rosdoc_lite-release.git
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/ros-infrastructure/rosdoc_lite.git
@@ -2153,7 +2160,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/urg_c-release.git
-      version: 1.0.403-0
+      version: 1.0.404-0
     source:
       type: git
       url: https://github.com/ros-drivers/urg_c.git
@@ -2207,7 +2214,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/vision_opencv-release.git
-      version: 1.11.1-0
+      version: 1.11.2-0
     source:
       type: git
       url: https://github.com/ros-perception/vision_opencv.git

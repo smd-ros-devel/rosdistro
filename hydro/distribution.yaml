@@ -14,7 +14,11 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-industrial/abb.git
-      version: groovy-devel
+      version: hydro
+    source:
+      type: git
+      url: https://github.com/ros-industrial/abb.git
+      version: hydro
   ackermann_msgs:
     doc:
       type: git
@@ -323,7 +327,31 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ipa320/bride-release.git
-      version: 0.3.0-5
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/ipa320/bride.git
+      version: develop
+    status: developed
+  bwi:
+    doc:
+      type: git
+      url: https://github.com/utexas-bwi/bwi.git
+      version: master
+    release:
+      packages:
+      - bwi
+      - bwi_desktop
+      - bwi_desktop_full
+      - bwi_launch
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/utexas-bwi-gbp/bwi-release.git
+      version: 0.2.0-0
+    source:
+      type: git
+      url: https://github.com/utexas-bwi/bwi.git
+      version: master
     status: developed
   bwi_common:
     doc:
@@ -342,7 +370,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/bwi_common-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     source:
       type: git
       url: https://github.com/utexas-bwi/bwi_common.git
@@ -401,16 +429,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-drivers/camera1394.git
-      version: master
+      version: hydro-devel
     release:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-drivers-gbp/camera1394-release.git
-      version: 1.9.4-0
+      version: 1.9.5-0
     source:
       type: git
       url: https://github.com/ros-drivers/camera1394.git
-      version: master
+      version: hydro-devel
     status: maintained
   camera1394stereo:
     doc:
@@ -1066,7 +1094,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/diagnostics-release.git
-      version: 1.8.2-0
+      version: 1.8.3-0
     source:
       type: git
       url: https://github.com/ros/diagnostics.git
@@ -1171,7 +1199,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/eband_local_planner-release.git
-      version: 0.1.2-0
+      version: 0.2.1-0
     status: developed
   ecl_core:
     doc:
@@ -1350,7 +1378,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/ecto_ros-release.git
-      version: 0.4.1-0
+      version: 0.4.2-0
     source:
       type: git
       url: https://github.com/plasmodic/ecto_ros.git
@@ -2195,6 +2223,11 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_viz-release.git
       version: 0.0.3-0
+  iai_common_msgs:
+    doc:
+      type: git
+      url: https://github.com/code-iai/iai_common_msgs.git
+      version: master
   image_common:
     doc:
       type: git
@@ -2280,7 +2313,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-industrial/industrial_calibration.git
-      version: master
+      version: hydro
   industrial_core:
     doc:
       type: git
@@ -2304,6 +2337,15 @@ repositories:
       type: git
       url: https://github.com/ros-industrial/industrial_core.git
       version: hydro
+  industrial_metapackages:
+    release:
+      packages:
+      - industrial_desktop
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-industrial-release/industrial_metapackages-release.git
+      version: 0.0.1-0
+    status: developed
   interactive_marker_proxy:
     release:
       url: https://github.com/ros-gbp/interactive_marker_proxy-release.git
@@ -2441,7 +2483,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.1.3-0
+      version: 0.1.4-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -2456,11 +2498,13 @@ repositories:
       packages:
       - euslisp
       - geneus
+      - jsk_roseus
       - roseus
+      - roseus_msgs
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.1.3-0
+      version: 1.1.7-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -3803,11 +3847,12 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/pcl_conversions-release.git
-      version: 0.1.5-0
+      version: 0.1.6-0
     source:
       type: git
       url: https://github.com/ros-perception/pcl_conversions.git
       version: hydro-devel
+    status: maintained
   pcl_msgs:
     release:
       tags:
@@ -4758,7 +4803,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.5.4-1
+      version: 0.5.2-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -4809,7 +4854,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/rosdoc_lite-release.git
-      version: 0.2.3-0
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/ros-infrastructure/rosdoc_lite.git
@@ -5443,7 +5488,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/segbot-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/utexas-bwi/segbot.git
@@ -5802,11 +5847,16 @@ repositories:
       url: https://github.com/srv/stereo_slam.git
       version: hydro
   swiftnav:
+    doc:
+      type: git
+      url: https://github.com/swift-nav/libswiftnav.git
+      version: v0.8
     release:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/clearpath-gbp/libswiftnav-release.git
-      version: 0.0.4-0
+      version: 0.8.0-1
+    status: maintained
   teleop_twist_keyboard:
     doc:
       type: git
