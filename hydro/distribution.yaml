@@ -28,7 +28,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/jack-oquin/ackermann_msgs-release.git
-      version: 0.9.0-0
+      version: 0.9.1-0
     source:
       type: git
       url: https://github.com/jack-oquin/ackermann_msgs.git
@@ -370,7 +370,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/bwi_common-release.git
-      version: 0.2.3-0
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/utexas-bwi/bwi_common.git
@@ -1517,7 +1517,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-drivers-gbp/flir_ptu-release.git
-      version: 0.1.2-0
+      version: 0.1.3-0
     source:
       type: git
       url: https://github.com/ros-drivers/flir_ptu.git
@@ -2467,6 +2467,43 @@ repositories:
       url: https://github.com/jsk-ros-pkg/jsk_common.git
       version: master
     status: developed
+  jsk_model_tools:
+    doc:
+      type: git
+      url: https://github.com/tork-a/jsk_model_tools-release.git
+      version: master
+    release:
+      packages:
+      - eus_assimp
+      - euscollada
+      - jsk_model_tools
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/tork-a/jsk_model_tools-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/tork-a/jsk_model_tools-release.git
+      version: master
+    status: developed
+  jsk_pr2eus:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
+      version: master
+    release:
+      packages:
+      - jsk_pr2eus
+      - pr2eus
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/tork-a/jsk_pr2eus-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
+      version: master
+    status: developed
   jsk_recognition:
     doc:
       type: git
@@ -3322,7 +3359,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/skasperski/navigation_2d.git
-      version: master
+      version: hydro
   navigation_tutorials:
     release:
       packages:
@@ -5189,6 +5226,13 @@ repositories:
       url: https://github.com/ros-visualization/rqt.git
       version: groovy-devel
     status: maintained
+  rqt_capabilities:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_capabilities-release.git
+      version: 0.1.0-0
+    status: developed
   rqt_common_plugins:
     doc:
       type: git
@@ -5800,6 +5844,13 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/stage_ros-release.git
       version: 1.7.2-0
+  std_capabilities:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-gbp/std_capabilities-release.git
+      version: 0.1.0-0
+    status: developed
   std_msgs:
     doc:
       type: git
@@ -6089,7 +6140,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-geographic-info/unique_identifier-release.git
-      version: 1.0.3-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/ros-geographic-info/unique_identifier.git
@@ -6474,7 +6525,11 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/xacro-release.git
-      version: 1.8.4-0
+      version: 1.8.5-0
+    source:
+      type: git
+      url: https://github.com/ros/xacro.git
+      version: hydro-devel
     status: maintained
   xdot:
     release:

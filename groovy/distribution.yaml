@@ -1555,6 +1555,28 @@ repositories:
       type: git
       url: https://github.com/code-iai/iai_common_msgs.git
       version: master
+    release:
+      packages:
+      - data_vis_msgs
+      - designator_integration_msgs
+      - grasp_stability_msgs
+      - iai_common_msgs
+      - iai_content_msgs
+      - iai_kinematics_msgs
+      - iai_pancake_perception_action
+      - mln_robosherlock_msgs
+      - saphari_msgs
+      - scanning_table_msgs
+      - sherlock_sim_msgs
+      tags:
+        release: release/groovy/{package}/{version}
+      url: https://github.com/code-iai-release/iai_common_msgs-release.git
+      version: 0.0.0-0
+    source:
+      type: git
+      url: https://github.com/code-iai/iai_common_msgs.git
+      version: master
+    status: developed
   ias_common:
     doc:
       type: git
@@ -1778,6 +1800,43 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
+      version: master
+    status: developed
+  jsk_model_tools:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
+      version: master
+    release:
+      packages:
+      - eus_assimp
+      - euscollada
+      - jsk_model_tools
+      tags:
+        release: release/groovy/{package}/{version}
+      url: https://github.com/tork-a/jsk_model_tools-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
+      version: master
+    status: developed
+  jsk_pr2eus:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
+      version: master
+    release:
+      packages:
+      - jsk_pr2eus
+      - pr2eus
+      tags:
+        release: release/groovy/{package}/{version}
+      url: https://github.com/tork-a/jsk_pr2eus-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
       version: master
     status: developed
   jsk_recognition:
@@ -3886,6 +3945,13 @@ repositories:
       url: https://github.com/ros-visualization/rqt.git
       version: groovy-devel
     status: maintained
+  rqt_capabilities:
+    release:
+      tags:
+        release: release/groovy/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_capabilities-release.git
+      version: 0.1.0-0
+    status: developed
   rqt_common_plugins:
     doc:
       type: git
@@ -4275,6 +4341,13 @@ repositories:
       type: svn
       url: https://code.ros.org/svn/ros-pkg/stacks/stage/trunk
       version: HEAD
+  std_capabilities:
+    release:
+      tags:
+        release: release/groovy/{package}/{version}
+      url: https://github.com/ros-gbp/std_capabilities-release.git
+      version: 0.1.0-0
+    status: developed
   std_msgs:
     doc:
       type: git
