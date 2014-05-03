@@ -647,6 +647,7 @@ python-pcapy:
     trusty: [python-pcapy]
 python-pep8:
   debian: [pep8]
+  fedora: [python-pep8]
   osx:
     pip:
       packages: [pep8]
