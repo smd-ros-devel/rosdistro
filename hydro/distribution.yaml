@@ -327,7 +327,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ipa320/bride-release.git
-      version: 0.3.1-0
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/ipa320/bride.git
@@ -994,6 +994,11 @@ repositories:
     source:
       type: git
       url: https://github.com/OTL/cv_camera.git
+      version: master
+  cyton_gamma_1500_description:
+    doc:
+      type: git
+      url: https://github.com/GertKanter/cyton_gamma_1500_description.git
       version: master
   decision_making:
     doc:
@@ -2488,6 +2493,27 @@ repositories:
       url: https://github.com/tork-a/jsk_model_tools-release.git
       version: master
     status: developed
+  jsk_planning:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_planning.git
+      version: master
+    release:
+      packages:
+      - jsk_planning
+      - pddl_msgs
+      - pddl_planner
+      - pddl_planner_viewer
+      - task_compiler
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/tork-a/jsk_planning-release.git
+      version: 0.1.2-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_planning.git
+      version: master
+    status: developed
   jsk_pr2eus:
     doc:
       type: git
@@ -2544,7 +2570,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.1.11-1
+      version: 1.1.12-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -3192,7 +3218,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/davetcoleman/moveit_visual_tools-release.git
-      version: 0.2.0-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/davetcoleman/moveit_visual_tools.git
@@ -5224,7 +5250,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/rqt_capabilities-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     status: developed
   rqt_common_plugins:
     doc:
@@ -5310,7 +5336,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_common-release.git
-      version: 1.0.11-0
+      version: 1.0.12-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_common.git
@@ -5549,6 +5575,12 @@ repositories:
     source:
       type: git
       url: https://github.com/utexas-bwi/segbot_apps.git
+      version: master
+    status: developed
+  segbot_rocon:
+    doc:
+      type: git
+      url: https://github.com/utexas-bwi/segbot_rocon.git
       version: master
     status: developed
   segbot_simulator:
@@ -6290,7 +6322,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/uji-ros-pkg/uwsim_osgworks-release.git
-      version: 3.0.1-0
+      version: 3.0.2-0
     status: maintained
   v4r_ros:
     doc:
