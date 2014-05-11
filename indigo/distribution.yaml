@@ -33,7 +33,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/actionlib-release.git
-      version: 1.11.0-1
+      version: 1.11.1-0
     source:
       type: git
       url: https://github.com/ros/actionlib.git
@@ -68,7 +68,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/bfl-release.git
-      version: 0.7.0-5
+      version: 0.7.0-6
     status: maintained
   bond_core:
     doc:
@@ -85,7 +85,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/bond_core-release.git
-      version: 1.7.13-1
+      version: 1.7.14-0
     source:
       type: git
       url: https://github.com/ros/bond_core.git
@@ -111,7 +111,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/calibration-release.git
-      version: 0.10.9-0
+      version: 0.10.10-0
     source:
       type: git
       url: https://github.com/ros-perception/calibration.git
@@ -161,7 +161,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.6.3-0
+      version: 0.6.4-1
     status: maintained
   class_loader:
     doc:
@@ -183,7 +183,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/cmake_modules-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/ros/cmake_modules.git
@@ -229,7 +229,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/common_msgs-release.git
-      version: 1.11.2-0
+      version: 1.11.3-0
     source:
       type: git
       url: https://github.com/ros/common_msgs.git
@@ -650,7 +650,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/gencpp-release.git
-      version: 0.5.1-0
+      version: 0.5.2-0
     source:
       type: git
       url: https://github.com/ros/gencpp.git
@@ -665,7 +665,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/genlisp-release.git
-      version: 0.4.12-0
+      version: 0.4.13-0
     source:
       type: git
       url: https://github.com/ros/genlisp.git
@@ -680,7 +680,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/genmsg-release.git
-      version: 0.5.1-0
+      version: 0.5.2-0
     source:
       type: git
       url: https://github.com/ros/genmsg.git
@@ -695,7 +695,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/genpy-release.git
-      version: 0.5.0-0
+      version: 0.5.2-0
     source:
       type: git
       url: https://github.com/ros/genpy.git
@@ -737,7 +737,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/geometry-release.git
-      version: 1.11.2-1
+      version: 1.11.3-0
     source:
       type: git
       url: https://github.com/ros/geometry.git
@@ -762,12 +762,22 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/geometry_experimental-release.git
-      version: 0.5.3-1
+      version: 0.5.4-0
     source:
       type: git
       url: https://github.com/ros/geometry_experimental.git
       version: indigo-devel
     status: maintained
+  gps_umd:
+    release:
+      packages:
+      - gps_common
+      - gps_umd
+      - gpsd_client
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ktossell/gps_umd-release.git
+      version: 0.1.7-0
   hokuyo_node:
     doc:
       type: git
@@ -905,7 +915,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.1.11-0
+      version: 1.1.16-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -1225,7 +1235,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/nodelet_core-release.git
-      version: 1.8.2-1
+      version: 1.8.3-0
     source:
       type: git
       url: https://github.com/ros/nodelet_core.git
@@ -1463,7 +1473,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/pluginlib-release.git
-      version: 1.9.24-0
+      version: 1.10.0-0
     source:
       type: git
       url: https://github.com/ros/pluginlib.git
@@ -1485,7 +1495,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/python_qt_binding-release.git
-      version: 0.2.12-0
+      version: 0.2.13-0
     source:
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
@@ -1507,7 +1517,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.2.22-0
+      version: 0.2.23-0
     source:
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
@@ -1534,6 +1544,17 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/random_numbers-release.git
       version: 0.2.0-0
+  razer_hydra:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/razer_hydra-release.git
+      version: 0.0.13-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/razer_hydra.git
+      version: 0.0.13
+    status: maintained
   resource_retriever:
     release:
       tags:
@@ -1564,7 +1585,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/cra-ros-pkg/robot_localization-release.git
-      version: 0.1.1-0
+      version: 2.1.2-0
     source:
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
@@ -1622,6 +1643,16 @@ repositories:
       type: git
       url: https://github.com/robotics-in-concert/rocon_app_platform.git
       version: indigo
+    release:
+      packages:
+      - rocon_app_manager
+      - rocon_app_platform
+      - rocon_app_utilities
+      - rocon_apps
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/yujinrobot-release/rocon_app_platform-release.git
+      version: 0.7.0-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_app_platform.git
@@ -1682,7 +1713,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_multimaster-release.git
-      version: 0.7.0-0
+      version: 0.7.2-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_multimaster.git
@@ -1712,7 +1743,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_tools-release.git
-      version: 0.1.5-0
+      version: 0.1.6-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_tools.git
@@ -1749,7 +1780,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ros-release.git
-      version: 1.11.0-0
+      version: 1.11.1-0
     source:
       type: git
       url: https://github.com/ros/ros.git
@@ -1770,6 +1801,7 @@ repositories:
       - roscpp
       - rosgraph
       - roslaunch
+      - roslz4
       - rosmaster
       - rosmsg
       - rosnode
@@ -1785,7 +1817,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.11.0-1
+      version: 1.11.2-0
     source:
       type: git
       url: https://github.com/ros/ros_comm.git
@@ -1803,7 +1835,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm_msgs-release.git
-      version: 1.10.1-1
+      version: 1.10.2-0
     source:
       type: git
       url: https://github.com/ros/ros_comm_msgs.git
@@ -1823,7 +1855,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ros_tutorials-release.git
-      version: 0.4.3-1
+      version: 0.5.1-0
     source:
       type: git
       url: https://github.com/ros/ros_tutorials.git
@@ -1880,7 +1912,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.5.4-0
+      version: 0.5.5-0
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -1971,7 +2003,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/rospack-release.git
-      version: 2.2.2-0
+      version: 2.2.3-0
     source:
       type: git
       url: https://github.com/ros/rospack.git
@@ -1997,6 +2029,76 @@ repositories:
       url: https://github.com/ros-visualization/rqt.git
       version: groovy-devel
     status: maintained
+  rqt_capabilities:
+    doc:
+      type: git
+      url: https://github.com/osrf/rqt_capabilities.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_capabilities-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/osrf/rqt_capabilities.git
+      version: master
+    status: developed
+  rqt_common_plugins:
+    release:
+      packages:
+      - rqt_action
+      - rqt_bag
+      - rqt_bag_plugins
+      - rqt_common_plugins
+      - rqt_console
+      - rqt_dep
+      - rqt_graph
+      - rqt_image_view
+      - rqt_launch
+      - rqt_logger_level
+      - rqt_msg
+      - rqt_plot
+      - rqt_publisher
+      - rqt_py_common
+      - rqt_py_console
+      - rqt_reconfigure
+      - rqt_service_caller
+      - rqt_shell
+      - rqt_srv
+      - rqt_top
+      - rqt_topic
+      - rqt_web
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_common_plugins-release.git
+      version: 0.3.5-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_common_plugins.git
+      version: groovy-devel
+    status: developed
+  rqt_robot_plugins:
+    release:
+      packages:
+      - rqt_moveit
+      - rqt_nav_view
+      - rqt_pose_view
+      - rqt_robot_dashboard
+      - rqt_robot_monitor
+      - rqt_robot_plugins
+      - rqt_robot_steering
+      - rqt_runtime_monitor
+      - rqt_rviz
+      - rqt_tf_tree
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_robot_plugins-release.git
+      version: 0.3.4-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_robot_plugins.git
+      version: groovy-devel
   rviz:
     doc:
       type: git
@@ -2098,7 +2200,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/stage-release.git
-      version: 4.1.1-1
+      version: 4.1.1-2
     status: maintained
   stage_ros:
     doc:
@@ -2131,7 +2233,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/std_msgs-release.git
-      version: 0.5.8-1
+      version: 0.5.9-0
     source:
       type: git
       url: https://github.com/ros/std_msgs.git

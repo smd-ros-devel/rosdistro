@@ -1,3 +1,7 @@
+ace:
+  arch: [ace]
+  debian: [libace-dev]
+  ubuntu: [libace-dev]
 alsa-oss:
   arch: [alsa-oss]
   debian: [alsa-oss]
@@ -724,6 +728,7 @@ gstreamer0.10-plugins-ugly:
     precise: [gstreamer0.10-plugins-ugly]
     quantal: [gstreamer0.10-plugins-ugly]
     raring: [gstreamer0.10-plugins-ugly]
+    trusty: [gstreamer0.10-plugins-ugly]
 gstreamer0.10-pocketsphinx:
   fedora: [pocketsphinx-plugin]
   ubuntu: [gstreamer0.10-pocketsphinx]
@@ -822,6 +827,11 @@ ipmitool:
     portage:
       packages: [sys-apps/ipmitool]
   ubuntu: [ipmitool]
+jack:
+  arch: [jack]
+  debian: [libjack-jackd2-dev]
+  fedora: [jack-audio-connection-kit-devel]
+  ubuntu: [libjack-jackd2-dev]
 jasper:
   arch: [jasper]
   debian: [libjasper-dev]
@@ -2221,6 +2231,11 @@ pkg-config:
   opensuse: [pkg-config]
   rhel: [pkgconfig]
   ubuntu: [pkg-config]
+portaudio:
+  arch: [portaudio]
+  debian: [libportaudio-dev]
+  fedora: [portaudio-devel]
+  ubuntu: [libportaudio-dev]
 procps:
   arch: [procps-ng]
   debian: [procps]
@@ -2529,7 +2544,7 @@ tcsh:
   ubuntu: [tcsh]
 tesseract-ocr:
   fedora: [tesseract-devel]
-  ubuntu: [tesseract-ocr-dev]
+  ubuntu: [tesseract-ocr]
 texlive-fonts-extra:
   arch: [texlive-fontsextra]
   debian: [texlive-fonts-extra]
