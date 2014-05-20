@@ -1128,6 +1128,8 @@ python-setuptools:
     saucy: [python-setuptools]
     trusty: [python-setuptools]
     trusty_python3: [python3-setuptools]
+python-simplejson:
+  debian: [python-simplejson]
 python-sip:
   arch: [sip, python2-sip]
   debian: [python-sip-dev]
@@ -1154,6 +1156,8 @@ python-sip:
 python-sip4:
   fedora: [sip]
   macports: [py27-sip4]
+python-sklearn:
+  ubuntu: [python-sklearn]
 python-sphinx:
   arch: [python2-sphinx]
   debian: [python-sphinx]

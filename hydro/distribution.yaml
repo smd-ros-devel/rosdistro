@@ -204,7 +204,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter-release.git
-      version: 0.7.0-0
+      version: 1.0.0-1
     source:
       type: git
       url: https://github.com/RethinkRobotics/baxter.git
@@ -224,7 +224,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_common-release.git
-      version: 0.7.0-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/RethinkRobotics/baxter_common.git
@@ -239,7 +239,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_examples-release.git
-      version: 0.7.0-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/RethinkRobotics/baxter_examples.git
@@ -254,7 +254,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_interface-release.git
-      version: 0.7.0-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/RethinkRobotics/baxter_interface.git
@@ -269,7 +269,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_tools-release.git
-      version: 0.7.0-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/RethinkRobotics/baxter_tools.git
@@ -340,14 +340,13 @@ repositories:
       version: master
     release:
       packages:
-      - bwi
       - bwi_desktop
       - bwi_desktop_full
       - bwi_launch
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/bwi-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/utexas-bwi/bwi.git
@@ -459,7 +458,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/camera_info_manager_py-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     source:
       type: git
       url: https://github.com/ros-perception/camera_info_manager_py.git
@@ -2111,7 +2110,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/hrpsys-release.git
-      version: 315.1.9-2
+      version: 315.2.1-2
     source:
       type: git
       url: https://github.com/start-jsk/hrpsys.git
@@ -2238,6 +2237,29 @@ repositories:
       type: git
       url: https://github.com/code-iai/iai_common_msgs.git
       version: master
+    release:
+      packages:
+      - data_vis_msgs
+      - designator_integration_msgs
+      - dna_extraction_msgs
+      - grasp_stability_msgs
+      - iai_common_msgs
+      - iai_content_msgs
+      - iai_kinematics_msgs
+      - iai_pancake_perception_action
+      - mln_robosherlock_msgs
+      - saphari_msgs
+      - scanning_table_msgs
+      - sherlock_sim_msgs
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/code-iai-release/iai_common_msgs-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/code-iai/iai_common_msgs.git
+      version: master
+    status: developed
   image_common:
     doc:
       type: git
@@ -2276,7 +2298,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/image_pipeline-release.git
-      version: 1.11.9-0
+      version: 1.11.10-0
     source:
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
@@ -2355,6 +2377,22 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-industrial-release/industrial_metapackages-release.git
       version: 0.0.1-0
+    status: developed
+  interaction_cursor_3d:
+    release:
+      packages:
+      - interaction_cursor_3d
+      - interaction_cursor_demo
+      - interaction_cursor_msgs
+      - interaction_cursor_rviz
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/aleeper/interaction_cursor_3d-release.git
+      version: 0.0.3-0
+    source:
+      type: git
+      url: https://github.com/aleeper/interaction_cursor_3d.git
+      version: 0.0.3
     status: developed
   interactive_marker_proxy:
     release:
@@ -2531,7 +2569,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.1.5-0
+      version: 0.1.6-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
@@ -2575,10 +2613,29 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.1.16-0
+      version: 1.1.18-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
+      version: master
+    status: developed
+  jsk_visualization:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_visualization.git
+      version: master
+    release:
+      packages:
+      - jsk_interactive_marker
+      - jsk_rqt_plugins
+      - jsk_rviz_plugins
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/tork-a/jsk_visualization-release.git
+      version: 0.0.3-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_visualization.git
       version: master
     status: developed
   kinect_aux:
@@ -3036,6 +3093,21 @@ repositories:
       url: https://github.com/RobotWebTools/mjpeg_server.git
       version: develop
     status: maintained
+  ml_classifiers:
+    doc:
+      type: git
+      url: https://github.com/sniekum/ml_classifiers.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/sniekum/ml_classifiers-release.git
+      version: 0.3.0-1
+    source:
+      type: git
+      url: https://github.com/sniekum/ml_classifiers.git
+      version: master
+    status: developed
   motoman:
     doc:
       type: git
@@ -3169,6 +3241,21 @@ repositories:
       url: https://github.com/ros-planning/moveit_pr2.git
       version: hydro-devel
     status: maintained
+  moveit_python:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/moveit_python.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/mikeferguson/moveit_python-release.git
+      version: 0.2.1-0
+    source:
+      type: git
+      url: https://github.com/mikeferguson/moveit_python.git
+      version: master
+    status: developed
   moveit_resources:
     release:
       tags:
@@ -3399,6 +3486,26 @@ repositories:
       type: git
       url: https://github.com/skasperski/navigation_2d.git
       version: hydro
+    release:
+      packages:
+      - nav2d
+      - nav2d_exploration
+      - nav2d_karto
+      - nav2d_localizer
+      - nav2d_msgs
+      - nav2d_navigator
+      - nav2d_operator
+      - nav2d_remote
+      - nav2d_tutorials
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/skasperski/navigation_2d-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/skasperski/navigation_2d.git
+      version: hydro
+    status: developed
   navigation_tutorials:
     release:
       packages:
@@ -3495,7 +3602,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_core-release.git
-      version: 0.6.1-0
+      version: 0.6.2-0
     source:
       type: git
       url: https://github.com/wg-perception/object_recognition_core.git
@@ -3517,7 +3624,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_msgs-release.git
-      version: 0.4.0-0
+      version: 0.4.1-0
     source:
       type: git
       url: https://github.com/wg-perception/object_recognition_msgs.git
@@ -4791,6 +4898,27 @@ repositories:
       url: https://github.com/ros-controls/ros_controllers.git
       version: hydro-devel
     status: developed
+  ros_ethercat:
+    doc:
+      type: git
+      url: https://github.com/shadow-robot/ros_ethercat.git
+      version: hydro-devel
+    release:
+      packages:
+      - ros_ethercat
+      - ros_ethercat_eml
+      - ros_ethercat_hardware
+      - ros_ethercat_loop
+      - ros_ethercat_model
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/shadow-robot/ros_ethercat-release.git
+      version: 0.1.6-1
+    source:
+      type: git
+      url: https://github.com/shadow-robot/ros_ethercat.git
+      version: hydro-devel
+    status: developed
   ros_glass_tools:
     doc:
       type: git
@@ -4874,7 +5002,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.5.5-0
+      version: 0.5.5-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -5351,7 +5479,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_common-release.git
-      version: 1.0.12-0
+      version: 1.2.0-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_common.git
@@ -5512,12 +5640,23 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/rviz-release.git
-      version: 1.10.15-0
+      version: 1.10.16-0
     source:
       type: git
       url: https://github.com/ros-visualization/rviz.git
       version: hydro-devel
     status: maintained
+  rviz_fixed_view_controller:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-gbp/rviz_fixed_view_controller-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rviz_fixed_view_controller.git
+      version: 0.0.2
+    status: developed
   sbpl:
     release:
       tags:
@@ -5801,6 +5940,10 @@ repositories:
       version: hydro-devel
     status: maintained
   sr_ronex:
+    doc:
+      type: git
+      url: https://github.com/shadow-robot/sr-ronex.git
+      version: hydro-devel
     release:
       packages:
       - sr_ronex
@@ -5817,7 +5960,11 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/shadow-robot/sr-ronex-release.git
-      version: 0.9.6-0
+      version: 0.9.10-0
+    source:
+      type: git
+      url: https://github.com/shadow-robot/sr-ronex.git
+      version: hydro-devel
     status: developed
   sr_visualization:
     doc:
@@ -6582,7 +6729,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ethz-asl/ethzasl_xsens_driver-release.git
-      version: 1.0.2-0
+      version: 1.0.3-0
   xsens_reader:
     source:
       type: git

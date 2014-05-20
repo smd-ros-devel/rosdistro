@@ -168,7 +168,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter-release.git
-      version: 0.7.0-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/RethinkRobotics/baxter.git
@@ -188,7 +188,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_common-release.git
-      version: 0.7.0-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/RethinkRobotics/baxter_common.git
@@ -203,7 +203,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_examples-release.git
-      version: 0.7.0-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/RethinkRobotics/baxter_examples.git
@@ -218,7 +218,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_interface-release.git
-      version: 0.7.0-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/RethinkRobotics/baxter_interface.git
@@ -233,10 +233,25 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_tools-release.git
-      version: 0.7.0-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/RethinkRobotics/baxter_tools.git
+      version: master
+    status: developed
+  beliefstate:
+    doc:
+      type: git
+      url: https://github.com/fairlight1337/beliefstate.git
+      version: master
+    release:
+      tags:
+        release: release/groovy/{package}/{version}
+      url: https://github.com/code-iai-release/beliefstate-release.git
+      version: 0.6.1-1
+    source:
+      type: git
+      url: https://github.com/fairlight1337/beliefstate.git
       version: master
     status: developed
   bfl:
@@ -405,7 +420,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/camera_info_manager_py-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     source:
       type: git
       url: git://github.com/ros-perception/camera_info_manager_py.git
@@ -740,6 +755,21 @@ repositories:
       url: https://github.com/ros-gbp/depthimage_to_laserscan-release.git
       version: 1.0.5-0
     status: maintained
+  designator_integration:
+    doc:
+      type: git
+      url: https://github.com/code-iai/designator_integration.git
+      version: master
+    release:
+      tags:
+        release: release/groovy/{package}/{version}
+      url: https://github.com/code-iai-release/designator_integration-release.git
+      version: 0.0.0-1
+    source:
+      type: git
+      url: https://github.com/code-iai/designator_integration.git
+      version: master
+    status: developed
   diagnostics:
     doc:
       type: git
@@ -1195,7 +1225,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-drivers/freenect_stack.git
-      version: master
+      version: freenect_stack-0.2.2
     release:
       packages:
       - freenect_camera
@@ -1208,7 +1238,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/freenect_stack.git
-      version: master
+      version: freenect_stack-0.2.2
     status: maintained
   freiburg_tools:
     doc:
@@ -1522,7 +1552,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/tork-a/hrpsys-release.git
-      version: 315.1.9-2
+      version: 315.2.1-2
     source:
       type: git
       url: https://github.com/start-jsk/hrpsys.git
@@ -1559,6 +1589,7 @@ repositories:
       packages:
       - data_vis_msgs
       - designator_integration_msgs
+      - dna_extraction_msgs
       - grasp_stability_msgs
       - iai_common_msgs
       - iai_content_msgs
@@ -1571,7 +1602,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/code-iai-release/iai_common_msgs-release.git
-      version: 0.0.0-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/code-iai/iai_common_msgs.git
@@ -1624,7 +1655,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/image_pipeline-release.git
-      version: 1.10.15-0
+      version: 1.10.17-0
     source:
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
@@ -1798,7 +1829,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.19-0
+      version: 1.0.20-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -1823,6 +1854,27 @@ repositories:
       url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
       version: master
     status: developed
+  jsk_planning:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_planning.git
+      version: master
+    release:
+      packages:
+      - jsk_planning
+      - pddl_msgs
+      - pddl_planner
+      - pddl_planner_viewer
+      - task_compiler
+      tags:
+        release: release/groovy/{package}/{version}
+      url: https://github.com/tork-a/jsk_planning-release.git
+      version: 0.1.2-1
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_planning.git
+      version: master
+    status: developed
   jsk_pr2eus:
     doc:
       type: git
@@ -1835,7 +1887,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.1.5-0
+      version: 0.1.6-3
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
@@ -1879,10 +1931,29 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.1.11-2
+      version: 1.1.18-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
+      version: master
+    status: developed
+  jsk_visualization:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_visualization.git
+      version: master
+    release:
+      packages:
+      - jsk_interactive_marker
+      - jsk_rqt_plugins
+      - jsk_rviz_plugins
+      tags:
+        release: release/groovy/{package}/{version}
+      url: https://github.com/tork-a/jsk_visualization-release.git
+      version: 0.0.3-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_visualization.git
       version: master
     status: developed
   katana_driver:
@@ -2557,7 +2628,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_core-release.git
-      version: 0.6.1-0
+      version: 0.6.2-0
     source:
       type: git
       url: https://github.com/wg-perception/object_recognition_core.git
@@ -2579,7 +2650,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_msgs-release.git
-      version: 0.4.0-0
+      version: 0.4.1-0
     source:
       type: git
       url: https://github.com/wg-perception/object_recognition_msgs.git
@@ -2848,17 +2919,6 @@ repositories:
       type: git
       url: https://github.com/RCPRG-ros-pkg/orocos_controllers.git
       version: electric
-  orocos_kdl:
-    release:
-      packages:
-      - kdl
-      - orocos_kdl
-      - orocos_kinematics_dynamics
-      - python_orocos_kdl
-      tags:
-        release: release/{package}/{upstream_version}
-      url: https://github.com/ros-gbp/orocos_kdl-release.git
-      version: 1.1.99-13
   orocos_kinematics_dynamics:
     doc:
       type: git
@@ -3706,7 +3766,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.5.5-0
+      version: 0.5.5-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -4046,7 +4106,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/tork-a/rtmros_common-release.git
-      version: 1.0.11-0
+      version: 1.2.0-2
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_common.git
@@ -4383,6 +4443,11 @@ repositories:
       type: svn
       url: https://alufr-ros-pkg.googlecode.com/svn/trunk/symbolic_planning
       version: HEAD
+  tedusar_ros_pkg:
+    doc:
+      type: git
+      url: https://github.com/johmau85/tedusar_ros_pkg.git
+      version: master
   text_locator:
     doc:
       type: git

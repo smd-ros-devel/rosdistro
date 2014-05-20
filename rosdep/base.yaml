@@ -1381,7 +1381,7 @@ libogre-dev:
     quantal: [libogre-dev]
     raring: [libogre-dev]
     saucy: [libogre-1.8-dev]
-    trusty: [libogre-1.9-dev]
+    trusty: [libogre-1.8-dev]
 libois-dev:
   arch: [ois]
   debian: [libois-dev]
@@ -2057,6 +2057,8 @@ maven:
   debian: [maven]
   fedora: [maven]
   ubuntu: [maven]
+mayavi:
+  ubuntu: [mayavi2]
 mercurial:
   arch: [mercurial]
   debian: [mercurial]
@@ -2325,6 +2327,8 @@ ruby:
     raring: [ruby1.9.1-dev, libruby1.9.1, ruby1.9.1]
     saucy: [ruby1.9.1-dev, libruby1.9.1, ruby1.9.1]
     trusty: [ruby1.9.1-dev, libruby1.9.1, ruby1.9.1]
+ruby-sass:
+  ubuntu: [ruby-sass]
 sbcl:
   arch: [sbcl]
   debian: [sbcl]
