@@ -214,8 +214,8 @@ avrdude:
   arch: [avrdude]
   fedora: [avrdude]
   gentoo:
-  portage:
-    packages: [dev-embedded/avrdude]
+    portage:
+      packages: [dev-embedded/avrdude]
   ubuntu: [avrdude]
 bazaar:
   arch: [bzr]
@@ -579,7 +579,7 @@ freeimage:
   arch: [freeimage]
   debian: [libfreeimage-dev]
   fedora: [freeimage-devel]
-  gentoo: [freeimage]
+  gentoo: [media-libs/freeimage]
   macports: [freeimage]
   rhel: [freeimage-devel]
   ubuntu: [libfreeimage-dev]
@@ -587,7 +587,7 @@ freetype:
   fedora: [freetype]
   macports: [freetype]
 ftdi-eeprom:
-  arch: [ftdi_eeprom-git]
+  arch: [ftdi-eeprom]
   debian: [ftdi-eeprom]
   fedora: [libftdi-devel, libftdi-c++-devel]
   ubuntu: [ftdi-eeprom]
@@ -628,7 +628,7 @@ gforth:
   arch: [gforth]
   debian: [gforth]
   fedora: [gforth]
-  gentoo: [gforth]
+  gentoo: [dev-lang/gforth]
   macports: [gforth]
   ubuntu: [gforth]
 gfortran:
@@ -665,7 +665,7 @@ glut:
   arch: [freeglut]
   debian: [freeglut3-dev]
   fedora: [freeglut-devel]
-  gentoo: [freeglut]
+  gentoo: [media-libs/freeglut]
   macports: [freeglut]
   rhel: [freeglut-devel]
   ubuntu: [freeglut3-dev]
@@ -679,7 +679,7 @@ gnuplot:
 google-mock:
   arch: [gmock]
   fedora: [gmock]
-  gentoo: [gmock]
+  gentoo: [dev-cpp/gmock]
   ubuntu: [google-mock]
 gradle:
   arch: [gradle]
@@ -689,7 +689,7 @@ graphicsmagick:
   arch: [graphicsmagick]
   debian: [libgraphicsmagick++1-dev]
   fedora: [GraphicsMagick-c++-devel]
-  gentoo: [imagemagick]
+  gentoo: [media-gfx/imagemagick]
   macports: [GraphicsMagick]
   ubuntu: [libgraphicsmagick++1-dev]
 graphviz:
@@ -836,7 +836,7 @@ jasper:
   arch: [jasper]
   debian: [libjasper-dev]
   fedora: [jasper-devel]
-  gentoo: [jasper]
+  gentoo: [media-libs/jasper]
   macports: [jasper]
   opensuse: [libjasper-devel]
   ubuntu: [libjasper-dev]
@@ -882,6 +882,10 @@ kgraphviewer:
     portage:
       packages: [media-gfx/kgraphviewer]
   ubuntu: [kgraphviewer]
+lib32asound2:
+  debian: [lib32asound2]
+  fedora: [alsa-lib(x86-32), alsa-lib]
+  ubuntu: [lib32asound2]
 libann-dev:
   arch: [ann]
   debian: [libann-dev]
@@ -1227,7 +1231,7 @@ libjpeg:
   arch: [libjpeg-turbo]
   debian: [libjpeg8-dev]
   fedora: [libjpeg-turbo-devel]
-  gentoo: [libjpeg-turbo]
+  gentoo: [media-libs/libjpeg-turbo]
   macports: [jpeg]
   opensuse: [libjpeg62-devel]
   ubuntu:
@@ -1392,7 +1396,7 @@ libois-dev:
   ubuntu: [libois-dev]
 libopencv-dev:
   fedora: [opencv-devel]
-  gentoo: [opencv]
+  gentoo: [media-libs/opencv]
   macports: [opencv]
   ubuntu:
     saucy: [libopencv-dev]
@@ -1856,6 +1860,7 @@ libusb:
   arch: [libusb-compat]
   debian: [libusb-0.1-4]
   fedora: [libusb]
+  gentoo: [dev-libs/libusb-compat]
   macports: [libusb]
   ubuntu: [libusb-0.1-4]
 libusb-1.0:
@@ -1866,6 +1871,7 @@ libusb-1.0:
     heisenbug: [libusbx]
     schrödinger’s: [libusbx]
     spherical: [libusbx]
+  gentoo: [=dev-libs/libusb-1.0*]
   opensuse: [libusb-1_0-0]
   ubuntu: [libusb-1.0-0]
 libusb-1.0-dev:
@@ -1876,6 +1882,7 @@ libusb-1.0-dev:
     heisenbug: [libusbx-devel]
     schrödinger’s: [libusbx-devel]
     spherical: [libusbx-devel]
+  gentoo: [=dev-libs/libusb-1.0*]
   macports: [libusb]
   opensuse: [libusb-1_0-devel]
   ubuntu: [libusb-1.0-0-dev]
@@ -1889,6 +1896,7 @@ libv4l-dev:
   arch: [v4l-utils]
   debian: [libv4l-dev]
   fedora: [libv4l-devel]
+  gentoo: [media-libs/libv4l]
   opensuse: [libv4l-devel]
   ubuntu: [libv4l-dev]
 libvlc:
@@ -1919,7 +1927,7 @@ libx11:
   arch: [libx11]
   debian: [libx11-dev]
   fedora: [libX11]
-  gentoo: [libX11]
+  gentoo: [x11-libs/libX11]
   macports: [xorg-libX11]
   ubuntu: [libx11-dev]
 libx11-dev:
@@ -2043,6 +2051,7 @@ lua-dev:
 lz4:
   debian: [liblz4-dev]
   fedora: [lz4-devel]
+  gentoo: [app-arch/lz4]
   ubuntu:
     saucy: [liblz4-dev]
     trusty: [liblz4-dev]
@@ -2058,6 +2067,7 @@ maven:
   fedora: [maven]
   ubuntu: [maven]
 mayavi:
+  fedora: [Mayavi]
   ubuntu: [mayavi2]
 mercurial:
   arch: [mercurial]
@@ -2081,6 +2091,10 @@ mongodb-dev:
   fedora: [libmongo-client-devel, mongodb-devel]
   macports: [mongodb]
   ubuntu: [libmongo-client-dev, mongodb-dev]
+mono-devel:
+  debian: [mono-devel]
+  fedora: [mono-devel]
+  ubuntu: [mono-devel]
 mpg123:
   arch: [mpg123]
   debian: [mpg123]
@@ -2111,7 +2125,7 @@ netpbm:
   arch: [netpbm]
   debian: [libnetpbm10-dev]
   fedora: [netpbm-devel]
-  gentoo: [netpbm]
+  gentoo: [media-libs/netpbm]
   macports: [netpbm]
   opensuse: [netpbm]
   ubuntu: [libnetpbm10-dev]
@@ -2128,7 +2142,7 @@ nvidia-cg:
   arch: [nvidia-cg-toolkit]
   debian: [nvidia-cg-toolkit]
   fedora: [Cg]
-  gentoo: [nvidia-cg-toolkit]
+  gentoo: [media-gfx/nvidia-cg-toolkit]
   ubuntu: [nvidia-cg-toolkit]
 omniidl:
   debian:
@@ -2212,7 +2226,7 @@ pcre:
   arch: [pcre]
   debian: [libpcre3-dev]
   fedora: [pcre-devel]
-  gentoo: [libpcre]
+  gentoo: [dev-libs/libpcre]
   macports: [pcre]
   rhel: [pcre-devel]
   ubuntu: [libpcre3-dev]
@@ -2271,6 +2285,9 @@ pyqt4-dev-tools:
     portage:
       packages: [dev-python/PyQt4]
   ubuntu: [pyqt4-dev-tools]
+python-opencv:
+  gentoo: [media-libs/opencv]
+  ubuntu: [python-opencv]
 qhull-bin:
   arch: [qhull]
   debian: [qhull-bin]
@@ -2286,7 +2303,7 @@ qt4-qmake:
   arch: [qt4]
   debian: [qt4-qmake]
   fedora: [qt-devel]
-  gentoo: [qt-core]
+  gentoo: [dev-qt/qtcore]
   macports: [qt4-mac]
   opensuse: [libqt4-devel]
   rhel: [qt-devel]
@@ -2328,6 +2345,7 @@ ruby:
     saucy: [ruby1.9.1-dev, libruby1.9.1, ruby1.9.1]
     trusty: [ruby1.9.1-dev, libruby1.9.1, ruby1.9.1]
 ruby-sass:
+  fedora: [rubygem-sass]
   ubuntu: [ruby-sass]
 sbcl:
   arch: [sbcl]
@@ -2378,15 +2396,15 @@ sdl-gfx:
   debian: [libsdl-gfx1.2-dev]
   fedora: [SDL_gfx]
   gentoo:
-  portage:
-    packages: [media-libs/sdl-gfx]
+    portage:
+      packages: [media-libs/sdl-gfx]
   ubuntu: [libsdl-gfx1.2-dev]
 sdl-image:
   arch: [sdl_image]
   debian: [libsdl-image1.2-dev]
   fedora: [SDL_image-devel]
   freebsd: [sdl_image]
-  gentoo: [sdl-image]
+  gentoo: [media-libs/sdl-image]
   macports: [libsdl_image]
   opensuse: [SDL_image]
   ubuntu: [libsdl-image1.2-dev]
@@ -2517,7 +2535,7 @@ tango-icon-theme:
   arch: [tango-icon-theme]
   debian: [tango-icon-theme]
   fedora: [tango-icon-theme]
-  gentoo: [gentoo, x11-themes/tango-icon-theme]
+  gentoo: [x11-themes/tango-icon-theme]
   macports: [tango-icon-theme]
   mandrake: [tango-icon-theme]
   opensuse: [tango-icon-theme]
@@ -2537,7 +2555,7 @@ tbb:
   arch: [intel-tbb]
   debian: [libtbb-dev]
   fedora: [tbb-devel]
-  gentoo: [tbb]
+  gentoo: [dev-cpp/tbb]
   macports: [tbb]
   opensuse: [tbb-devel]
   ubuntu: [libtbb-dev]
@@ -2783,7 +2801,7 @@ yaml:
   arch: [libyaml]
   debian: [libyaml-dev]
   fedora: [libyaml]
-  gentoo: [libyaml]
+  gentoo: [dev-libs/libyaml]
   macports: [libyaml]
   ubuntu: [libyaml-dev]
 yaml-cpp:

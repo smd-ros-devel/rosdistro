@@ -117,7 +117,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/AutonomyLab/ardrone_autonomy-release.git
-      version: 1.3.3-0
+      version: 1.3.4-0
     source:
       type: git
       url: https://github.com/AutonomyLab/ardrone_autonomy.git
@@ -1570,11 +1570,12 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/humanoid_msgs-release.git
-      version: 0.3.0-0
+      version: 0.3.0-1
     source:
       type: git
       url: https://github.com/ahornung/humanoid_msgs.git
       version: devel
+    status: maintained
   humanoid_navigation:
     doc:
       type: git
@@ -1802,6 +1803,7 @@ repositories:
     release:
       packages:
       - assimp_devel
+      - bayesian_belief_networks
       - collada_urdf_jsk_patch
       - depth_image_proc_jsk_patch
       - downward
@@ -1825,11 +1827,13 @@ repositories:
       - pr2_groovy_patches
       - rospatlite
       - rosping
+      - rostwitter
+      - sklearn
       - stereo_synchronizer
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.20-0
+      version: 1.0.26-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -1909,7 +1913,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.1.4-0
+      version: 0.1.7-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -1944,13 +1948,15 @@ repositories:
       version: master
     release:
       packages:
+      - jsk_interactive
       - jsk_interactive_marker
+      - jsk_interactive_test
       - jsk_rqt_plugins
       - jsk_rviz_plugins
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 0.0.3-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
@@ -2505,7 +2511,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.3.9-0
+      version: 0.3.11-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -2532,7 +2538,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/nao_robot-release.git
-      version: 0.2.3-0
+      version: 0.2.3-1
     source:
       type: git
       url: https://github.com/ros-nao/nao_robot.git
@@ -2708,6 +2714,10 @@ repositories:
       url: https://kforge.ros.org/gridutils/git
       version: master
   octomap:
+    doc:
+      type: git
+      url: https://github.com/OctoMap/octomap.git
+      version: v1.5-fixes
     release:
       packages:
       - octomap
@@ -2715,7 +2725,11 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/octomap-release.git
-      version: 1.5.7-0
+      version: 1.5.7-1
+    source:
+      type: git
+      url: https://github.com/OctoMap/octomap.git
+      version: v1.5-fixes
     status: maintained
   octomap_mapping:
     doc:
@@ -2729,7 +2743,7 @@ repositories:
       version: groovy-devel
     release:
       tags:
-        release: release/{package}/{upstream_version}
+        release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/octomap_msgs-release.git
       version: 0.2.9-0
     source:
@@ -2744,9 +2758,9 @@ repositories:
       version: groovy-devel
     release:
       tags:
-        release: release/{package}/{upstream_version}
+        release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/octomap_ros-release.git
-      version: 0.2.6-0
+      version: 0.2.6-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap_ros.git
@@ -2761,7 +2775,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/octomap_rviz_plugins-release.git
-      version: 0.0.4-0
+      version: 0.0.4-1
     source:
       type: git
       url: https://github.com/OctoMap/octomap_rviz_plugins.git
@@ -3349,7 +3363,12 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/razer_hydra-release.git
-      version: 0.0.11-0
+      version: 0.0.21-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/razer_hydra.git
+      version: groovy-devel
+    status: maintained
   razor_imu_9dof:
     doc:
       type: git
@@ -3412,7 +3431,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/cra-ros-pkg/robot_localization-release.git
-      version: 0.1.2-0
+      version: 0.1.2-2
     source:
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
@@ -3766,7 +3785,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.5.5-1
+      version: 0.5.6-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -4013,7 +4032,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/rqt_capabilities-release.git
-      version: 0.1.1-0
+      version: 0.1.2-3
     status: developed
   rqt_common_plugins:
     doc:
@@ -4125,7 +4144,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.0.13-0
+      version: 1.0.14-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
