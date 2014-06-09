@@ -25,7 +25,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-industrial-release/abb-release.git
-      version: 1.1.1-0
+      version: 1.1.2-0
     source:
       type: git
       url: https://github.com/ros-industrial/abb.git
@@ -1000,7 +1000,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/etsardou/crsm-slam-ros-pkg-release.git
-      version: 1.0.3-0
+      version: 1.0.3-1
     status: developed
   cv_camera:
     doc:
@@ -1832,6 +1832,17 @@ repositories:
       type: git
       url: https://github.com/davetcoleman/graph_msgs.git
       version: master
+    status: developed
+  grasping_msgs:
+    doc:
+      type: git
+      url: https://github.com/unboundedrobotics/grasping_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/unboundedrobotics-gbp/grasping_msgs-gbp.git
+      version: 0.3.0-0
     status: developed
   grizzly:
     doc:
@@ -2705,6 +2716,21 @@ repositories:
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
       version: master
     status: developed
+  keyboard:
+    doc:
+      type: git
+      url: https://github.com/lrse/ros-keyboard.git
+      version: 0.1.1
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/lrse-ros-release/keyboard-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/lrse/ros-keyboard.git
+      version: master
+    status: maintained
   kinect_aux:
     doc:
       type: git
@@ -2917,7 +2943,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/laser_geometry-release.git
-      version: 1.5.15-0
+      version: 1.5.16-0
   laser_pipeline:
     doc:
       type: git
@@ -3095,6 +3121,11 @@ repositories:
     doc:
       type: git
       url: https://github.com/larsys/markov_decision_making.git
+      version: master
+  mavros:
+    doc:
+      type: git
+      url: https://github.com/vooon/mavros.git
       version: master
   maxwell:
     doc:
@@ -4083,6 +4114,11 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/openslam_gmapping-release.git
       version: 0.1.0-1
+  optris_drivers:
+    doc:
+      type: git
+      url: https://github.com/ohm-ros-pkg/optris_drivers.git
+      version: groovy-devel
   orocos_kinematics_dynamics:
     doc:
       type: git
@@ -5269,7 +5305,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/rosjava-release/rosjava_bootstrap-release.git
-      version: 0.1.20-1
+      version: 0.1.21-0
     source:
       type: git
       url: https://github.com/rosjava/rosjava_bootstrap.git
@@ -6561,6 +6597,21 @@ repositories:
       url: https://github.com/ros-industrial/universal_robot.git
       version: hydro-devel
     status: developed
+  universal_teleop:
+    doc:
+      type: git
+      url: https://github.com/lrse/ros-universal-teleop.git
+      version: 0.1.0
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/lrse-ros-release/universal_teleop-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/lrse/ros-universal-teleop.git
+      version: master
+    status: maintained
   uos_slam:
     doc:
       type: git
@@ -6765,7 +6816,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/vision_opencv-release.git
-      version: 1.10.17-1
+      version: 1.10.18-0
     source:
       type: git
       url: https://github.com/ros-perception/vision_opencv.git
