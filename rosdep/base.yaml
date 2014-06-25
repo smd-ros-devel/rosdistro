@@ -31,6 +31,8 @@ ant:
     precise: [ant]
     quantal: [ant]
     raring: [ant]
+    saucy: [ant]
+    trusty: [ant]
 antlr:
   arch: [antlr]
   debian: [antlr, libantlr-dev]
@@ -978,6 +980,11 @@ libcoin80-dev:
   debian: [libcoin80-dev]
   fedora: [Coin2-devel]
   ubuntu: [libcoin80-dev]
+libconsole-bridge-dev:
+  fedora: [console-bridge-devel]
+  ubuntu:
+    saucy: [libconsole-bridge-dev]
+    trusty: [libconsole-bridge-dev]
 libdbus-dev:
   arch: [dbus-core]
   debian: [libdbus-1-dev]
@@ -1296,6 +1303,9 @@ libmarble-dev:
     portage:
       packages: [kde-base/marble]
   ubuntu: [libmarble-dev]
+libmodbus-dev:
+  fedora: [libmodbus-devel]
+  ubuntu: [libmodbus-dev]
 libmotif-dev:
   arch: [lesstif]
   debian: [libmotif-dev]
@@ -1857,6 +1867,16 @@ libunwind-dev:
     raring: [libunwind8-dev]
     saucy: [libunwind8-dev]
     trusty: [libunwind8-dev]
+liburdfdom-dev:
+  fedora: [urdfdom-devel]
+  ubuntu:
+    saucy: [liburdfdom-dev]
+    trusty: [liburdfdom-dev]
+liburdfdom-headers-dev:
+  fedora: [urdfdom-headers-devel]
+  ubuntu:
+    saucy: [liburdfdom-headers-dev]
+    trusty: [liburdfdom-headers-dev]
 libusb:
   arch: [libusb-compat]
   debian: [libusb-0.1-4]
@@ -2087,6 +2107,9 @@ mesa-common-dev:
 meshlab:
   fedora: [meshlab]
   ubuntu: [meshlab]
+mongodb:
+  fedora: [mongodb]
+  ubuntu: [mongodb]
 mongodb-dev:
   arch: [mongodb]
   debian: [libmongo-client-dev, mongodb-dev]
