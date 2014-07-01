@@ -313,6 +313,11 @@ repositories:
       type: svn
       url: https://tu-darmstadt-ros-pkg.googlecode.com/svn/trunk/biorob_common
       version: HEAD
+  biotac_driver:
+    doc:
+      type: git
+      url: https://github.com/kth-ros-pkg/biotac_driver.git
+      version: hydro
   bond_core:
     doc:
       type: git
@@ -500,7 +505,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ktossell/camera_umd-release.git
-      version: 0.2.2-0
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/ktossell/camera_umd.git
@@ -515,7 +520,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/capabilities-release.git
-      version: 0.1.1-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/osrf/capabilities.git
@@ -1605,6 +1610,11 @@ repositories:
   flirtlib:
     release:
       url: https://github.com/ros-gbp/flirtlib-release.git
+  force_torque_tools:
+    doc:
+      type: git
+      url: https://github.com/kth-ros-pkg/force_torque_tools.git
+      version: hydro
   fovis:
     doc:
       type: git
@@ -2679,7 +2689,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_model_tools-release.git
-      version: 0.1.4-0
+      version: 0.1.6-0
     source:
       type: git
       url: https://github.com/tork-a/jsk_model_tools-release.git
@@ -2740,7 +2750,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.1.7-0
+      version: 0.1.9-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -2762,7 +2772,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.1.19-0
+      version: 1.1.21-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -2783,12 +2793,22 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 1.0.4-0
+      version: 1.0.5-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
       version: master
     status: developed
+  kdl_acc_solver:
+    doc:
+      type: git
+      url: https://github.com/kth-ros-pkg/kdl_acc_solver.git
+      version: hydro
+  kdl_wrapper:
+    doc:
+      type: git
+      url: https://github.com/kth-ros-pkg/kdl_wrapper.git
+      version: hydro
   keyboard:
     doc:
       type: git
@@ -3100,7 +3120,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ktossell/libuvc-release.git
-      version: 0.0.3-0
+      version: 0.0.4-1
   libuvc_ros:
     doc:
       type: git
@@ -3617,6 +3637,28 @@ repositories:
       url: https://github.com/fkie/multimaster_fkie.git
       version: hydro-devel
     status: maintained
+  multisense_ros:
+    doc:
+      type: hg
+      url: https://bitbucket.org/osrf/multisense_ros
+      version: 1.0.0
+    release:
+      packages:
+      - multisense
+      - multisense_bringup
+      - multisense_cal_check
+      - multisense_description
+      - multisense_lib
+      - multisense_ros
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/carnegieroboticsllc/multisense_ros-release.git
+      version: 1.0.0-1
+    source:
+      type: hg
+      url: https://bitbucket.org/osrf/multisense_ros
+      version: default
+    status: developed
   nao_extras:
     doc:
       type: git
@@ -3729,7 +3771,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/navigation-release.git
-      version: 1.11.9-0
+      version: 1.11.10-0
     source:
       type: git
       url: https://github.com/ros-planning/navigation.git
@@ -4579,6 +4621,11 @@ repositories:
       url: https://github.com/PR2/pr2_ethercat_drivers.git
       version: hydro-devel
     status: maintained
+  pr2_ft_moveit_config:
+    doc:
+      type: git
+      url: https://github.com/kth-ros-pkg/pr2_ft_moveit_config.git
+      version: hydro
   pr2_mechanism:
     doc:
       type: git
@@ -4740,7 +4787,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/yujinrobot-release/qt_ros-release.git
-      version: 0.2.5-0
+      version: 0.2.6-0
     source:
       type: git
       url: https://github.com/stonier/qt_ros.git
@@ -5405,6 +5452,11 @@ repositories:
       url: https://github.com/ros/roscpp_core.git
       version: hydro-devel
     status: maintained
+  rosdbm:
+    doc:
+      type: git
+      url: https://github.com/ricardoej/rosdbm.git
+      version: master
   rosdoc_lite:
     doc:
       type: git
@@ -5421,6 +5473,10 @@ repositories:
       version: master
     status: maintained
   rosh_core:
+    doc:
+      type: git
+      url: https://github.com/OSUrobotics/rosh_core.git
+      version: hydro-devel
     release:
       packages:
       - rosh
@@ -5429,7 +5485,11 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/OSUrobotics/rosh_core-release.git
-      version: 1.0.3-0
+      version: 1.0.4-0
+    source:
+      type: git
+      url: https://github.com/OSUrobotics/rosh_core.git
+      version: hydro-devel
     status: maintained
   rosh_desktop_plugins:
     doc:
@@ -5811,6 +5871,21 @@ repositories:
       url: https://github.com/ros-gbp/rqt_common_plugins-release.git
       version: 0.3.4-0
     status: developed
+  rqt_ez_publisher:
+    doc:
+      type: git
+      url: https://github.com/OTL/rqt_ez_publisher.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/OTL/rqt_ez_publisher-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/OTL/rqt_ez_publisher.git
+      version: hydro-devel
+    status: maintained
   rqt_pr2_dashboard:
     doc:
       type: git
